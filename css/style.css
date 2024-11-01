@@ -1,0 +1,1136 @@
+/* ================================= */
+/*===== GLOBAL CSS =====*/
+/* ================================= */
+
+.my-vc-team .my-vc-team-member .my-vc-team-detail .my-member-name {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.my-vc-team .my-vc-team-member .my-member-details {
+    padding-right: 12px;
+}
+
+/* ================================= */
+/*===== vc-team Style 1 =====*/
+/* ================================= */
+.vc-team-style-1 .my-vc-team-member {
+    margin-bottom: 20px;
+}
+
+.vc-team-style-1 .my-vc-team-member:last-of-type {
+    margin-bottom: 0;
+}
+
+.vc-team-style-1 .my-vc-team-member .my-member-img {
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+.vc-team-style-1 .my-vc-team-member .my-member-img img {
+    width: 100%;
+    margin-left: -30px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.vc-team-style-1 .my-vc-team-member:hover .my-member-img img {
+    margin-left: 0;
+}
+
+.vc-team-style-1 .my-vc-team-member .my-vc-team-detail {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+.vc-team-style-1 .my-member-name {
+    color: #c0392b;
+    background-color: rgba(1, 1, 1, 0.5);
+    padding: 6px 6px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.vc-team-style-1 .my-vc-team-member:hover .my-member-name {
+    color: #FFF;
+}
+
+.vc-team-style-1 .my-member-post {
+    color: #c0392b;
+    background-color: rgba(1, 1, 1, 0.5);
+    padding: 0 6px;
+    margin: 0 0 20px;
+    font-size: 16px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.vc-team-style-1 .my-vc-team-member:hover .my-member-post {
+    color: #FFF;
+}
+
+.vc-team-style-1 .my-member-social {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.vc-team-style-1 .my-vc-team-member:hover .my-member-social {
+    opacity: 1;
+    right: 15px;
+}
+
+.vc-team-style-1 .my-member-social ul li {
+    margin-top: 6px;
+    list-style: none;
+}
+
+.vc-team-style-1 .my-member-social ul li a {
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFF;
+    border: 1px solid #FFFFFF;
+    /*background-color: #c0392b;*/
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.vc-team-style-1 .my-member-social ul li a:hover {
+    color: #000000;
+    background-color: #FFF;
+    border: 1px solid #ffffff;
+}
+
+@media (min-width: 992px) {
+    .vc-team-style-1 .my-vc-team-member {
+        margin-bottom: 0;
+    }
+}
+
+/* ================================= */
+/*===== vc-team Style 2 =====*/
+/* ================================= */
+.vc-team-style-2 .my-vc-team-block {
+    margin-bottom: 20px;
+}
+
+.vc-team-style-2 .my-vc-team-block:last-of-type {
+    margin-bottom: 0;
+}
+
+.vc-team-style-2 .my-vc-team-member {
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.vc-team-style-2 .my-vc-team-member:hover {
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, .5);
+}
+
+.vc-team-style-2 .my-vc-team-member img {
+    width: 100%;
+}
+
+.vc-team-style-2 .my-vc-team-member .my-vc-team-detail {
+    position: absolute;
+    bottom: -250px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    padding-right: 10px;
+    -webkit-transition: 0.7s ease-in-out;
+    transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -ms-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+}
+
+.vc-team-style-2 .my-vc-team-member:hover .my-vc-team-detail {
+    bottom: 0;
+    opacity: 1;
+}
+
+.vc-team-style-2 .my-member-name,
+.vc-team-style-2 .my-member-post,
+.vc-team-style-2 .my-member-details,
+.vc-team-style-2 .my-member-social {
+    opacity: 0;
+    -webkit-transition: 1.2s ease-in-out;
+    transition: 1.2s ease-in-out;
+    -moz-transition: 1.2s ease-in-out;
+    -ms-transition: 1.2s ease-in-out;
+    -o-transition: 1.2s ease-in-out;
+}
+
+.vc-team-style-2 .my-vc-team-member:hover .my-member-name,
+.vc-team-style-2 .my-vc-team-member:hover .my-member-post,
+.vc-team-style-2 .my-vc-team-member:hover .my-member-details,
+.vc-team-style-2 .my-vc-team-member:hover .my-member-social {
+    opacity: 1;
+}
+
+.vc-team-style-2 .my-vc-team-detail {
+    padding-left: 12px;
+}
+
+.vc-team-style-2 .my-member-name,
+.vc-team-style-2 .my-member-details {
+    color: #232323;
+
+}
+
+.vc-team-style-2 .my-member-post {
+    color: #232323;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.vc-team-style-2 .my-member-social li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.vc-team-style-2 .my-member-social li:first-child {
+    margin: 0 0;
+}
+
+.vc-team-style-2 .my-member-social li a {
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    color: #232323;
+    border: #232323 1px solid;
+}
+
+@media (min-width: 992px) {
+    .vc-team-style-2 .my-vc-team-block {
+        margin-bottom: 0;
+    }
+}
+
+/* ================================= */
+/*===== vc-team Style 3 =====*/
+/* ================================= */
+.vc-team-style-3 .my-vc-team-member {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.vc-team-style-3 .my-vc-team-member img {
+    width: 100%;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.vc-team-style-3 .my-vc-team-member:hover img {
+    margin-top: -60px;
+    padding-bottom: 60px;
+}
+
+.vc-team-style-3 .my-vc-team-member .my-vc-team-detail {
+    opacity: 1;
+    position: absolute;
+    bottom: -160px;
+    background-color: #FFF;
+    width: 100%;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.vc-team-style-3 .my-vc-team-member:hover .my-vc-team-detail {
+    bottom: 0;
+}
+
+.vc-team-style-3 .my-member-name,
+.vc-team-style-3 .my-member-post,
+.vc-team-style-3 .my-member-social {
+    opacity: 0;
+    -webkit-transition: 1.2s ease-in-out;
+    transition: 1.2s ease-in-out;
+    -moz-transition: 1.2s ease-in-out;
+    -ms-transition: 1.2s ease-in-out;
+    -o-transition: 1.2s ease-in-out;
+}
+
+.vc-team-style-3 .my-vc-team-member:hover .my-member-name,
+.vc-team-style-3 .my-vc-team-member:hover .my-member-post,
+.vc-team-style-3 .my-vc-team-member:hover .my-member-social {
+    opacity: 1;
+}
+
+.vc-team-style-3 .my-vc-team-detail {
+    padding-left: 12px;
+}
+
+.vc-team-style-3 .my-member-name {
+    color: #333;
+}
+
+.vc-team-style-3 .my-member-post {
+    color: #333;
+    font-size: 13px;
+}
+
+.vc-team-style-3 .my-member-social {
+    padding-bottom: 6px;
+}
+
+.vc-team-style-3 .my-vc-team-detail ul li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.vc-team-style-3 .my-vc-team-detail ul li a {
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    color: #333;
+    border: #333 1px solid;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.vc-team-style-3 .my-vc-team-detail ul li a:hover {
+    color: #FFF;
+    border-color: #3498DB;
+}
+
+@media (min-width: 992px) {
+    .vc-team-style-3 .my-vc-team-member {
+        margin-bottom: 0;
+    }
+}
+
+
+/* ================================= */
+		/*===== vc-team Style 4 =====*/
+/* ================================= */
+.vc-team-style-4 .my-vc-team-block {
+	margin-bottom: 20px;
+}
+.vc-team-style-4 .my-vc-team-block:last-of-type  {
+    margin-bottom: 0;
+}
+.vc-team-style-4 .my-vc-team-member {
+    overflow: hidden;
+    position: relative;
+}
+.vc-team-style-4 .my-vc-team-member img {
+    width: 100%;
+    -webkit-transition: 1.5s ease-in-out;
+	transition: 1.5s ease-in-out;
+	-moz-transition: 1.5s ease-in-out;
+	-ms-transition: 1.5s ease-in-out;
+	-o-transition: 1.5s ease-in-out;
+}
+.vc-team-style-4 .my-vc-team-block:hover .my-vc-team-member img {
+    -webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform:scale(1.1);
+}
+.vc-team-style-4 .my-vc-team-member .my-vc-team-detail {
+	position: absolute;
+	bottom: -250px;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	padding-right: 10px;
+	opacity: 0;
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+	-moz-transition: 0.7s ease-in-out;
+	-ms-transition: 0.7s ease-in-out;
+	-o-transition: 0.7s ease-in-out;	
+}
+.vc-team-style-4 .my-vc-team-member:hover .my-vc-team-detail {
+	bottom: 0;
+	opacity: 1;
+}
+.vc-team-style-4 .my-member-name, 
+.vc-team-style-4 .my-member-post, 
+.vc-team-style-4 .my-member-details,
+.vc-team-style-4 .my-member-social {
+	opacity: 0;
+	-webkit-transition: 1.2s ease-in-out;
+	transition: 1.2s ease-in-out;
+	-moz-transition: 1.2s ease-in-out;
+	-ms-transition: 1.2s ease-in-out;
+	-o-transition: 1.2s ease-in-out;	
+}
+.vc-team-style-4 .my-vc-team-member:hover .my-member-name, 
+.vc-team-style-4 .my-vc-team-member:hover .my-member-post,
+.vc-team-style-4 .my-vc-team-member:hover .my-member-details,
+.vc-team-style-4 .my-vc-team-member:hover .my-member-social {	
+	opacity: 1;
+}
+.vc-team-style-4 .my-vc-team-detail {
+	padding-left: 12px;
+}
+.vc-team-style-4 .my-member-name, 
+.vc-team-style-4 .my-member-details {
+	color: #FFF;
+}
+.vc-team-style-4 .my-member-post {
+	color: #FFF;
+	font-size: 16px;
+}
+.vc-team-style-4 .my-member-social li {
+	display: inline-block;
+	margin: 0 2px;
+}
+.vc-team-style-4 .my-member-social li:first-child {
+	margin: 0 0;
+}
+.vc-team-style-4 .my-member-social li a {
+	display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFF;
+    border: #FFF 1px solid;
+}
+.vc-team-style-4 .my-member-social li a:hover {
+	color: #FFF;
+	background-color: #3498DB;
+	border: #3498DB 1px solid;
+}
+@media(min-width:992px) {	
+	.vc-team-style-4 .my-vc-team-block {   
+   		 margin-bottom: 0;
+	}
+}
+
+/* ================================= */
+		/*===== vc-team Style 5 =====*/
+/* ================================= */
+.vc-team-style-5 {
+	margin-bottom: 60px;
+}
+.vc-team-style-5 .my-vc-team-member {
+    margin-bottom: 20px;  
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.vc-team-style-5 .my-vc-team-member:hover {
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+}
+.vc-team-style-5 .my-vc-team-member:last-of-type {
+    margin-bottom: 0;
+}
+.vc-team-style-5 .my-vc-team-member .my-member-img {
+    overflow: hidden; 
+    padding: 15px;   
+    box-shadow: 0 2px 5px rgba(0,0,0,.5), 0 0 10px rgba(0,0,0,.2) inset;
+}
+.vc-team-style-5 .my-vc-team-member .my-member-img img {
+    width: 100%;
+}
+.vc-team-style-5 .my-vc-team-member .my-vc-team-detail {
+	opacity: 0;
+	margin: -60px auto 0;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.vc-team-style-5 .my-vc-team-member:hover .my-vc-team-detail {
+	opacity: 1;
+	margin: -200px auto 0;
+}
+.vc-team-style-5 .my-member-name {
+	color: #FFF;
+	text-align: center;	
+}
+.vc-team-style-5 .my-member-post {
+	color: #FFF;
+	text-align: center;
+	margin: 0 0 20px;
+	font-size: 16px;
+}
+.vc-team-style-5 .my-member-social {
+    text-align: center;	
+	opacity: 0;
+	overflow: hidden;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-5 .my-vc-team-member:hover .my-member-social {
+	opacity: 1;
+}
+.vc-team-style-5 .my-member-social ul li {
+	list-style: none;
+	display: inline-block;	
+}
+.vc-team-style-5 .my-member-social ul li a {
+	display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFF;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-5 .my-member-social ul li a:hover {
+	color: #3498DB;
+}
+@media(min-width:992px) {	
+	.vc-team-style-5 .my-vc-team-member {
+		margin-bottom: 0;
+	}
+}
+@media(max-width:768px) {	
+	.vc-team-style-5 .my-vc-team-member:hover .my-vc-team-detail {
+		margin: -200px auto 140px;
+	}
+}
+
+/* ================================= */
+		/*===== vc-team Style 6 =====*/
+/* ================================= */
+.vc-team-style-6 .my-vc-team-member {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.vc-team-style-6 .my-vc-team-member img {
+    width: 100%;
+}
+.vc-team-style-6 .my-vc-team-member .my-vc-team-detail {
+	bottom: 163px;
+	position: relative;
+	width: 100%;
+	opacity: 0;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	-moz-transition: 0.5s ease-in-out;
+	-ms-transition: 0.5s ease-in-out;
+	-o-transition: 0.5s ease-in-out;	
+}
+.vc-team-style-6 .my-vc-team-member:hover .my-vc-team-detail {
+	opacity: 1;
+}
+.vc-team-style-6 .my-member-name, 
+.vc-team-style-6 .my-member-post, 
+.vc-team-style-6 .my-member-social {
+	opacity: 0;
+	-webkit-transition: 1.2s ease-in-out;
+	transition: 1.2s ease-in-out;
+	-moz-transition: 1.2s ease-in-out;
+	-ms-transition: 1.2s ease-in-out;
+	-o-transition: 1.2s ease-in-out;	
+}
+.vc-team-style-6 .my-vc-team-member:hover .my-member-name, 
+.vc-team-style-6 .my-vc-team-member:hover .my-member-post,
+.vc-team-style-6 .my-vc-team-member:hover .my-member-social {	
+	opacity: 1;
+}
+.vc-team-style-6 .my-vc-team-detail {
+	padding-left: 12px;
+}
+.vc-team-style-6 .my-member-name {
+	color: #FFF;
+	text-align: center;
+}
+.vc-team-style-6 .my-member-name:after {
+	content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    margin: 10px auto 0;
+    background: #FFF;  
+    -webkit-transition: 1.2s ease-in-out;
+	transition: 1.2s ease-in-out;
+	-moz-transition: 1.2s ease-in-out;
+	-ms-transition: 1.2s ease-in-out;
+	-o-transition: 1.2s ease-in-out;
+}
+.vc-team-style-6 .my-vc-team-member:hover .my-member-name:after {
+	width: 40px;
+}
+.vc-team-style-6 .my-member-post {
+	color: #FFF;
+	font-size: 13px;
+	text-align: center;
+}
+.vc-team-style-6 .my-member-social {
+	padding-bottom: 6px;text-align: center;
+}
+.vc-team-style-6 .my-vc-team-detail ul li {
+	display: inline-block;
+	margin: 0 2px;
+}
+.vc-team-style-6 .my-vc-team-detail ul li a {
+	display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFF;
+    -webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+}
+.vc-team-style-6 .my-vc-team-detail ul li a:hover {
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	transform:scale(1.3);
+}
+@media(min-width:992px) {	
+	.vc-team-style-6 .my-vc-team-member {
+    	margin-bottom: 0;
+	}
+}
+
+/* ================================= */
+		/*===== vc-team Style 7 =====*/
+/* ================================= */
+.vc-team-style-7 .my-vc-team-member {
+    margin-bottom: 20px;
+    overflow: hidden; 
+}
+.vc-team-style-7 .my-vc-team-member:last-of-type {
+    margin-bottom: 0;
+}
+.vc-team-style-7 .overlay {
+    position: absolute;	
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+}
+.vc-team-style-7 .my-vc-team-member .my-member-img {    
+    position: relative;
+    overflow: hidden;
+    cursor: url("../images/cursor-white.png") 48 48, pointer;
+     -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.vc-team-style-7 .my-vc-team-member:hover .my-member-img {    
+	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+}
+.vc-team-style-7 .my-vc-team-member .my-member-img img {
+    width: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.vc-team-style-7 .my-vc-team-member:hover .my-member-img img {
+    -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform:scale(1.2);
+}
+.vc-team-style-7 .my-vc-team-member:hover .overlay {
+    opacity: 1;
+}
+.vc-team-style-7 .my-vc-team-detail .my-member-name {
+	color: #333; 
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-7 .my-vc-team-member  .my-vc-team-detail h6 {
+	margin-top: 8px;
+	margin-bottom: 3px;
+}
+.vc-team-style-7 .my-vc-team-member:hover .my-member-name {
+    color: #3498DB;
+}
+.vc-team-style-7 .my-member-post {
+	color: #333;
+	font-size: 16px;
+	margin-top: 0; 
+	margin-bottom: 0;
+}
+.vc-team-style-7 hr {
+border-top: 1px solid #333;
+margin: 5px 0 12px;
+width: 100%;
+}
+.vc-team-style-7 .my-member-details {
+color: #333;
+margin-bottom: 10px;
+padding-right: 0;
+}
+.vc-team-style-7 .my-member-social {
+	overflow: hidden;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-7 .my-member-social ul li {
+	margin: 3px;
+	list-style: none;
+	display: inline-block;
+}
+.vc-team-style-7 .my-member-social ul li a {
+	display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    color: #333;
+    border: 1px solid #333;
+    background-color: #FFF;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-7 .my-member-social ul li a:hover {
+	color: #FFF;
+	background-color: #3498DB;
+	border: #3498DB 1px solid;
+}
+@media(min-width:992px) {	
+	.vc-team-style-7 .my-vc-team-member {
+		margin-bottom: 0;
+	}
+}
+
+/* ================================= */
+		/*===== vc-team Style 8 =====*/
+/* ================================= */
+.vc-team-style-8 .my-vc-team-member {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.vc-team-style-8 .my-vc-team-member:last-of-type {
+    margin-bottom: 0;
+}
+.vc-team-style-8 .overlay {
+    position: absolute;	
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    padding-top: 20px;
+    background: rgba(52,152,219,0.6);
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+}
+.vc-team-style-8 .my-vc-team-member .my-member-img {    
+    position: relative;
+    overflow: hidden;
+    cursor: url("../images/cursor-white.png") 48 48, pointer;
+}
+.vc-team-style-8 .my-vc-team-member .my-member-img img {
+    width: 100%;
+    margin-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.vc-team-style-8 .my-vc-team-member:hover .my-member-img img {
+    -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform:scale(1.2);
+}
+.vc-team-style-8 .my-vc-team-member:hover .overlay {
+    opacity: 1;
+}
+.vc-team-style-8 .my-member-name {
+	color: #333;
+	margin-bottom: 0; 
+}
+.vc-team-style-8 .my-member-post {
+	color: #333;
+	font-size: 16px;
+	margin-top: 0; 
+}
+.vc-team-style-8 hr {
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    border-top: 1px solid #333;
+}
+.vc-team-style-8 .my-member-details {
+	color: #333;
+}
+.vc-team-style-8 .my-vc-team-member:hover .my-member-name,
+.vc-team-style-8 .my-vc-team-member:hover .my-member-post,
+.vc-team-style-8 .my-vc-team-member:hover .my-member-details {
+    color: #3498DB;
+}
+.vc-team-style-8 .my-vc-team-member:hover hr {
+	 border-color: #3498DB;
+}
+.vc-team-style-8 .my-member-social {
+	overflow: hidden;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-8 .my-member-social ul li {
+	margin-top: 6px;
+	list-style: none;
+	display: inline-block;
+}
+.vc-team-style-8 .my-member-social ul li a {
+	display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    color: #333;
+    border: 1px solid #333;
+    background-color: #FFF;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-8 .my-vc-team-member:hover .my-member-social ul li a {
+	color: #3498DB;
+    border: 1px solid #3498DB;
+}
+.vc-team-style-8 .my-vc-team-member .my-member-social ul li a:hover {
+	color: #FFF;
+	background-color: #3498DB;
+	border: #3498DB 1px solid;
+}
+@media(min-width:992px) {	
+	.vc-team-style-8 .my-vc-team-member {
+		margin-bottom: 0;
+	}
+}
+
+/* ================================= */
+		/*===== vc-team Style 9 =====*/
+/* ================================= */
+.vc-team-style-9 .section {
+	margin-bottom: 40px;
+}
+.vc-team-style-9 .my-vc-team-member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;   
+}
+.vc-team-style-9 .my-vc-team-member:hover {
+    margin-top: -20px;
+}
+.vc-team-style-9 .my-vc-team-member .my-vc-team-member-bg {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;   
+    padding-bottom: 15px;
+}
+.vc-team-style-9 .my-vc-team-member:hover .my-vc-team-member-bg {
+    background-color: #3498DB;    
+}
+.vc-team-style-9 .my-vc-team-member:last-of-type {
+    margin-bottom: 0;
+}
+.vc-team-style-9 .my-vc-team-member .my-member-img {    
+    position: relative;
+    overflow: hidden;
+    cursor: crosshair;
+}
+.vc-team-style-9 .my-vc-team-member .my-member-img img {
+    width: 100%;
+    margin-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.vc-team-style-9 .my-vc-team-member:hover .my-member-img img {
+    -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform:scale(1.2);
+}
+.vc-team-style-9 .my-vc-team-detail,
+.vc-team-style-9 .my-member-social {
+	padding-left: 15px;
+}
+.vc-team-style-9 .my-member-name {
+	color: #333;
+	margin-bottom: 0; 
+}
+.vc-team-style-9 .my-member-post {
+	color: #333;
+	font-size: 16px;
+	margin-top: 0; 
+}
+.vc-team-style-9 hr {
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    border-top: 1px solid #333;
+}
+.vc-team-style-9 .my-member-details {
+	color: #333;
+}
+.vc-team-style-9 .my-vc-team-member:hover .my-member-name, 
+.vc-team-style-9 .my-vc-team-member:hover .my-member-post,
+.vc-team-style-9 .my-vc-team-member:hover .my-member-details {
+    color: #FFF;   
+}
+.vc-team-style-9 .my-vc-team-member:hover hr {
+	border-top: 1px solid #FFF;
+}
+.vc-team-style-9 .my-member-social {
+	overflow: hidden;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-9 .my-member-social ul li {
+	margin-top: 6px;
+	list-style: none;
+	display: inline-block;
+}
+.vc-team-style-9 .my-member-social ul li a {
+	display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    color: #333;
+    border: 1px solid #333;
+    background-color: #FFF;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-9 .my-vc-team-member:hover .my-member-social ul li a {
+	color: #3498DB;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+}
+@media(min-width:992px) {	
+	.vc-team-style-9 .my-vc-team-member {
+		margin-bottom: 0;
+	}
+}
+
+/* ================================= */
+		/*===== vc-team Style 10 =====*/
+/* ================================= */
+.vc-team-style-10 .my-vc-team-member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.vc-team-style-10 .my-vc-team-member:hover {
+    margin-left: -15px;
+}
+.vc-team-style-10 .my-vc-team-member:last-of-type {
+    margin-bottom: 0;
+}
+.vc-team-style-10 .overlay {
+    position: absolute;	
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+}
+.vc-team-style-10 .my-vc-team-member .my-member-img {    
+    position: relative;
+    overflow: hidden;
+    cursor: url("../images/cursor-white.png") 64 64, pointer;
+}
+.vc-team-style-10 .my-vc-team-member .my-member-img img {
+    width: 100%;
+    margin-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+}
+.vc-team-style-10 .my-vc-team-member:hover .my-member-img img {
+    -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform:scale(1.2);
+}
+.vc-team-style-10 .my-vc-team-member:hover .overlay {
+    opacity: 1;
+}
+.vc-team-style-10 .my-member-name {
+	color: #333;
+	margin-bottom: 0; 
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-10 .my-vc-team-member:hover .my-member-name {
+    color: #3498DB;
+}
+.vc-team-style-10 .my-member-post {
+	color: #333;
+	font-size: 16px;
+	margin-top: 0; 
+	 margin-bottom: 0;
+}
+.vc-team-style-10 hr {
+border-top: 1px solid #333;
+margin: 5px 0 12px;
+width: 100%;
+}
+.vc-team-style-10 .my-member-details {
+	color: #333;
+}
+.vc-team-style-10 .my-member-social {
+	overflow: hidden;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-10 .my-member-social ul li {
+	margin: 3px;
+	list-style: none;
+	display: inline-block;
+}
+.vc-team-style-10 .my-member-social ul li a {
+	display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    color: #333;
+    border: 1px solid #333;
+    background-color: #FFF;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.vc-team-style-10 .my-member-social ul li a:hover {
+	color: #FFF;
+	background-color: #3498DB;
+	border: #3498DB 1px solid;
+}
+@media(min-width:992px) {	
+	.vc-team-style-10 .my-vc-team-member {
+		margin-bottom: 0;
+	}
+}
